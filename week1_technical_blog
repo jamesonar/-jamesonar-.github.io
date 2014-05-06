@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<style>
+#header
+{position:absolute;
+top:-15px;
+z-index:2;}  
+
+#logo
+{position:absolute;
+right:0px;
+}
+  
+#header_banner
+{position:absolute;
+top:0px;}
+
+#body
+{position:absolute;
+top:190px;
+
+</style>
+
+
+<!----------TOP_BANNER--------->
+<div id=header>
+<h1><strong>An Apologetic Developer</strong></h1>
+</br>
+</br>
+</br>
+<h4><em><strong>Bear with me here...</strong></em></h4>
+</div>
+
+<div id=header_banner>
+  <img src = "http://devbootcamp.com/imgs/faq-page/333p_DBC_120801_H.jpg" alt = "Bootcamp workspace"/>
+</div>
+
+<div id=logo>
+<img src ="https://pbs.twimg.com/profile_images/378800000108903202/c690cecf964c9291ab697d389abf9912.jpeg" 
+height="190" alt = "Apologist Band Logo"/>.
+</div>
+<!-----------TOP-BANNER--------->
+
+<!-----------BODY--------------->
+<div id=body>
+<p>
+<em>Date: 5/6/2014</em></br></br>
+I'll discuss two of my three websites together because I like them for the same reason. This websites
+are Apple.com and Uber.com. If design thinking places and emphasis on empathy, creativity, and rationality,
+these two sites put the focus on empathy. The first thing that you'll likely notice on both of these
+sites is that they feature very prominent images on the top of their page.</p>
+
+<image src="http://i.imgur.com/03WTeBG.png" height="300" alt="Apple Wireframe"></image>
+<image src="http://i.imgur.com/L9ARSFR.png" height="300" alt="Uber Wireframe 1"></image>
+
+<p>The images practically take up the whole screen. I imagine the purpose of this is create an impression on the user before
+they do anything else. Apple's images generally features close up, high resolution photos of their products. This 
+gives a strong impression regarding the quality of their product's design. In turn, Uber's site features
+a series of equally large photos of attractive, fashionable people on the move. This is Uber's attempt
+to define their service not by the cars themselfs, but by the people who use it.</p>
+
+<p>The balance that both sites need to manage is the tradetrade-off between focusing on the impression 
+versus the "rational" component of the site (i.e. getting the customer to do what you want them
+to). The sites take different approaches to this. Uber prominently displays a small sign up button in
+middle of their landing page while Apple, rightly assuming that prospective buyers of their products
+will need more information before they buy anything, requires that customers navigate through less
+conspicuous buttons along the top
+</p>
+
+<p>
+The New York Times website is compeltely different from the first two, which is driven by function.
+The websites of Apple and Uber are designed as tools to market a product. The New York Times's site
+to a large extent is its product, and it's product is content. As a result, the website attemtps to 
+display as much content as possible without feeling cluttered. Here rationality takes presedence over
+empathy.
+</p>
+<img src="http://i.imgur.com/Wb5ANCi.png" title="Hosted by imgur.com"/></a>
+</div>
+<!-----------BODY---------->
+
+</html>
