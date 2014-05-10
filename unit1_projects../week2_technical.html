@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor=#f3ebd5>
+	<style>
+	#banner{
+		border-bottom:15px solid grey;
+	}
+		#banner_photo1{
+			float:left;
+		}
+
+		#banner_title{
+			font-size:50px;
+			float:left;
+		}
+
+		#banner_photo3{}
+		<!-----insert media queriest to stop images from stacking---->
+
+	#wrapper{
+		max-width:1050px;
+		margin:auto;
+	}
+
+	#sidebar{
+		width:25%;
+		min-width: 160px;
+		max-width: 200px;
+		float:left;
+		border-right: 2px solid grey;
+		height:2000px;
+	}
+
+	#content{
+		width:74%;
+		float:right;
+		min-width:300px;
+	}
+
+	</style>
+
+	<div id=wrapper>
+		<div id=banner>
+			<div id=banner_photo1>
+				<a href="http://imgur.com/q0oegNI"><img src="http://i.imgur.com/q0oegNI.png?2"/></a>
+			</div>
+
+			<div id=banner_title>
+				<p>Future Savage</p>
+			</div>
+
+			<a href="http://imgur.com/Of4tHnT"><img src="http://i.imgur.com/Of4tHnT.png?3"/></a>
+			</div>
+		</div>
+
+		<div id=sidebar>
+			<h4>Previous Blog Posts
+			<ul>
+				<li><a href="Relative, Absolute, and Fixed">Relative, Absolute, and Fixed</li>
+				<li><a href="#Directions">Directions</li>
+				<li><a href="#Gifts">Gifts Policy</li>
+				<li><a href="#Accomodations">Accomodations</li>
+			</ul></h4>
+		</div>
+
+		<div id=content>
+
+			<p><h4><a id="Relative, Absolute, and Fixed">Relative, Absolute, and Fixed</h4>
+				Maybe it's because I have delusions of grandure when it comes to my spatial reasoning, but when learning HTML, I found myself very frustrated when trying to apply Margin, Border, and Padding. The concepts seem simple enough, but when applying them to format a website. They sometimes interact in ways you don't expect.First, what does Margin, Border, and Padding mean. The graphic below from Girl Develop It serves as a useful reference point.</p>
+
+				<a href="http://www.girldevelopit.com/assets/html-css/images/box-model"><img src="http://www.girldevelopit.com/assets/html-css/images/box-model.png"/></a>
+
+				<p>Let's start wtih Border. The Border is what you think it is. It deliniates the outer lines of an element with HTML. However, while the Border of an element is generally left invisible, it can just as easily be used to format a page. For example, a border 10 pixels wide, with "groove" design and the color 98bf21 looks like this:
+
+				<div style="border:10px groove #98bf21">
+				div style="border:10px groove #98bf21"
+				</div>
+				</p>
+
+				<p> Per the Girl Develop It diagram, padding can either be used to position cotent within the border (if no color is specified) or it can serve as another frame within the border. We'll use the same code that we did before and notice the difference. Note that 5px corresponds to the top and that the numbers rotate clockwise with the left being padded by 100px. Also note that the padding also affects the size of the border.
+				</p>
+
+				<div style="border:10px groove #98bf21">
+				<div style="padding: 5px 25px 50px 100px">
+				div style="border:10px groove #98bf21"</br>
+					div style="padding: 5px 25px 50px 100px"
+				</div>
+				</div>
+
+				<p> Referencing the Girl Develop It diagram again, we'll see the final aspect we'll discuss is the element's margin. Margin is simlar to padding, except you cannot assign color to it and takes place outside fo the border. Margins are commonly used to seperate an element from other components on a page.
+				</p>
+
+				<div style="border:10px groove #98bf21">
+				<div style="padding:5px 25px 50px 100px">
+				<div style="margin: 30px">
+				div style="border:10px groove #98bf21"</br>
+				div style="padding: 5px 25px 50px 100px"</br>
+				div style="margin-top: 100px"
+				</div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
